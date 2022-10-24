@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title> Responsive Cards</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .grand_parent {
+            width: 100vw;
+            height: 100vh;
+            background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgYuQ2aULERXJvi6UfAIYO3J4XxaJxOpqpRQchioaYQ7lu1SMlb_VlH5ODAf71r8ByjajOBxzmM0Y9SoSifaLZ-i0DDFUTSrwp93KHnX_J0s8SJhik03N97yBcXaoSa95I2gE7hy3UWi7j2eywTEe31BomZ5bKxBXXu05X8zTlDfYQZMFp8tUxJEnj3/w480-h640/i%20love%20you%20animation.gif');
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            color: #fff;;
+        }
+        h1{
+            font-size: 4rem;
+            text-align: center;
+            color: brown;
+            font-style: italic;
+        }
+        p{
+            color: brown;
+            font-size: 20px;
+            font-style: italic;
+            font-family: algerian;
+        }
+        .parents{
+            width: 80vw;
+            height: 79.8vh;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            transition: all 0.2s linear;
+        }
+        .child{
+            height: 200px;
+            background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhVa6qHyyj-DQAzDaMtuQaykSM3YndTMvkuHlbfvqn75Mf2_paQDD8WxHkOh0ZxHKb8-he7qXScGJBeR5Lq8pcethd1GcWJ1DJl5kc5yFBewFbdeisNt7-go_6UO2HuzMh0gEwbjWeDAHvFm8Uesg9enOKs2P6WVu3miSTCgRSVI1o83NwfeaRQtsa8/s320/i%20love%20you%20wallpaper.gif');
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            box-shadow: 0 0 20px #bac3c3;
+            flex: 1 1 200px;
+            margin: 7px;
+        }
+        .child:first-child{
+            background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhfc4HCu7M2QhecHQSWkL7ooIdHombMZ9r8ZEF_5HvhVHQprZUB1FvQwCJW0g7r0mCJvyQmy-ZIRX9GEaEXYEEq6PEe9E2-QSROjdjNb4t3-I82kZrPLgqgk3y2lMc4yuyuJTglvu-VTXaYgkSB0NjZ-mCOukpvybzwhKCwtQti28THOunIz6cF9JwK/s1280/teddy%20love%20gif.gif');
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+        }
+        .child:last-child{
+            background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjTsNDz9r3zJVpKg_d703v9RzMOWAQz7fiTnRi3SMKuz3gK5ctl93MiI5pcIrt0SIWEVr3Jwt311XCZ9d0O3m46OpF2NQ4TDAvZmCiK65HH9FQJswEmIsgWA-Y6m2j9gwVEbFPapPG3DjAp8btUcH-GCsbLmENL_sPHBRSgBW5OmNBBtEhr28CShtA9/s532/i%20love%20you%20rose.gif');
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+        }
+        @media (max-width: 768px){
+            .grand_parent{
+                height: auto;
+            }
+            
+        }
+    </style>
+</head>
+
+<body>
+    <div class="grand_parent">
+        <h1>I Love You</h1>
+        <div class="parents">
+            <div class="child">
+                <p>Rana Rabees</p>
+            </div>
+            <div class="child">
+                <p>Rana Rabees</p>
+            </div>
+            <div class="child">
+                <p>Rana Rabees</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
